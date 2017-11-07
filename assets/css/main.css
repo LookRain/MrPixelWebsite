@@ -1306,7 +1306,7 @@
 		border-radius: 5px;
 		background: #d52349;
 		color: #fff !important;
-		font-weight: 700;
+		font-weight: 400;
 		outline: 0;
 		-moz-transition: background-color .25s ease-in-out;
 		-webkit-transition: background-color .25s ease-in-out;
@@ -1664,7 +1664,7 @@
 
 		#banner header {
 			background-color: #252122;
-			background-color: rgba(34, 30, 31, 0.98);
+			background-color: rgba(34, 30, 31, 0.6);
 		}
 
 			#banner header h2 {
@@ -2558,13 +2558,13 @@
 		flex: 1;
 
 		order: 2;
-		background: #eee;
+
 		text-align: center;
 	}
 	.left-box{
 		flex: 1;
 
-		background: #ccc;
+
 		order: 1;
 		text-align: center;
 	}
@@ -2572,6 +2572,6 @@
 
 		flex: 1;
 		order: 3;
-		background: #ddd;
+
 		text-align: center;
 	}
