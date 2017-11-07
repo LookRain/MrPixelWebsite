@@ -2575,3 +2575,23 @@
 
 		text-align: center;
 	}
+
+	.columns2{
+		display: flex;
+		flex-wrap: wrap;
+		flex:1;
+	}
+	.left-box2{
+		flex: 1;
+
+
+		order: 1;
+		text-align: center;
+	}
+	.right-box2{ 
+
+		flex: 1;
+		order: 2;
+
+		text-align: center;
+	}
