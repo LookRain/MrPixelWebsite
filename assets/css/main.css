@@ -2545,3 +2545,33 @@
 				}
 
 	}
+	@media(min-width: 768px){
+
+		.columns{
+			display: flex;
+			flex-wrap: wrap;
+			flex:1;
+		}
+	
+	}
+	.main-box{
+		flex: 1;
+
+		order: 2;
+		background: #eee;
+		text-align: center;
+	}
+	.left-box{
+		flex: 1;
+
+		background: #ccc;
+		order: 1;
+		text-align: center;
+	}
+	.right-box{ 
+
+		flex: 1;
+		order: 3;
+		background: #ddd;
+		text-align: center;
+	}
